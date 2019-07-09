@@ -1,0 +1,5 @@
+@media screen and (max-width: 39.99875em) {
+    .top-bar-center {
+        display: none!important;
+    }
+}

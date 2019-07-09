@@ -34,3 +34,8 @@ License URI:        http://www.opensource.org/licenses/mit-license.php
   you could just enqueue this file (style.css) to the header and add your styles in this file
 
 ---------------------------------------------------------------------------- */
+@media screen and (max-width: 39.99875em) {
+    .top-bar-center {
+        display: none!important;
+    }
+}
