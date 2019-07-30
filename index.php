@@ -16,9 +16,7 @@
 get_header(); ?>
 
 <div class="main-container">
-	<div class="main-grid">
-
-        <?php get_sidebar(); ?>
+	<div class="main-grid sidebar-left">
 
 		<main class="main-content">
 		<?php if ( have_posts() ) : ?>
@@ -44,7 +42,9 @@ get_header(); ?>
 					<div class="post-next"><?php previous_posts_link( __( 'Newer posts &rarr;', 'foundationpress' ) ); ?></div>
 				</nav>
 			<?php endif; ?>
+
 		</main>
+        <?php get_sidebar(); ?>
 
 	</div>
 </div>

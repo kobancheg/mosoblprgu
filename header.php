@@ -32,21 +32,22 @@
 			</div>
 		</div>
 
-		<nav class="site-navigation top-bar" role="navigation">
-			<div class="top-bar-left">
+		<nav class="site-navigation top-bar grid-x margin-top-1" role="navigation">
+			<div class="top-bar-left cell">
 
 			</div>
 
-            <div class="top-bar-center">
+            <div class="top-bar-center large-6 cell">
                 <div class="site-desktop-title top-bar-title">
                     <a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a>
                 </div>
             </div>
 
-			<div class="top-bar-right">
+			<div class="top-bar-right cell">
 
 			</div>
 		</nav>
+        <hr>
         <nav class="top-menu" id="<?php foundationpress_mobile_menu_id(); ?>">
             <?php foundationpress_top_bar_r(); ?>
 
@@ -54,5 +55,5 @@
                 <?php get_template_part( 'template-parts/mobile-top-bar' ); ?>
             <?php endif; ?>
         </nav>
-
+        <hr>
 	</header>

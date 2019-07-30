@@ -9,4 +9,7 @@
 ?>
 <aside class="sidebar">
 	<?php dynamic_sidebar( 'sidebar-widgets' ); ?>
+
+    <?php get_template_part( 'template-parts/sidebar-nav' ); ?>
+
 </aside>

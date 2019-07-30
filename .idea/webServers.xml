@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="0e847b1b-b60a-410c-96c4-7f68dbdac14a" name="mosoblprgu" url="http://vh208.timeweb.ru">
+        <fileTransfer host="vh208.timeweb.ru" port="21" rootFolder="/wordpress/public_html/wp-content/themes/foundationpress">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" showHiddenFiles="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

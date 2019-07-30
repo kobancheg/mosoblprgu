@@ -1,5 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Arsenal:400,700&display=swap&subset=cyrillic');
+
+@import url('https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&display=swap&subset=cyrillic');
+
+.site-desktop-title a,
+.title-bar-title {
+    font-weight: 300;
+    font-family: 'PT Sans Narrow', sans-serif;
+    text-transform: uppercase;
+}
+
+.top-menu a,
+.mobile-off-canvas-menu a {
+    font-family: "Arsenal", sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
 @media screen and (max-width: 39.99875em) {
     .top-bar-center {
         display: none!important;
     }
+}
+
+.top-bar, .top-bar ul {
+    background-color: #ffffff;
+}
+
+.site-desktop-title a {
+    font-weight: 300;
+    font-size: 1.125rem;
 }
