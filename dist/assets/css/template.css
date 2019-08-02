@@ -16,10 +16,6 @@
     font-weight: 700;
 }
 
-.menu .is-active a ~ .is-accordion-submenu {
-    display: block!important;
-}
-
 @media screen and (max-width: 39.99875em) {
     .top-bar-center {
         display: none!important;
