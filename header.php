@@ -14,14 +14,8 @@
 	<head>
 		<meta charset="<?php bloginfo( 'charset' ); ?>" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<?php wp_head(); ?>
-        <script>
-            jQuery(document).ready(function(){
-                var ul=$('.is-active.is-submenu-item').parent('ul').attr('id');
-                $('#menu-side_menu').foundation('down', $('#'+ul));
-            });
-        </script>
 	</head>
 	<body <?php body_class(); ?>>
 
