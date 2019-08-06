@@ -13,7 +13,6 @@
 .mobile-off-canvas-menu a {
     font-family: "Arsenal", sans-serif;
     font-size: 1rem;
-    font-weight: 700;
 }
 
 @media screen and (max-width: 39.99875em) {
@@ -29,4 +28,78 @@
 .site-desktop-title a {
     font-weight: 300;
     font-size: 1.125rem;
+}
+
+#side-menu a {
+    font-family: 'PT Sans Narrow', sans-serif;
+    color: rgba(10, 10, 10, 0.75);
+    text-transform: uppercase;
+}
+
+#side-menu a:hover {
+    background: none;
+    color: #0a0a0a;
+    transition: all 0.35s ease;
+    border-left: 2px solid #1779ba;
+}
+
+#side-menu li.is-active > a {
+    background: none;
+    color: #1779ba;
+    transition: all 0.35s ease;
+    border-left: 2px solid #1779ba;
+}
+
+/*menu hover lines*/
+
+  .menu-hover-lines {
+    text-align: center;
+    text-transform: uppercase;
+    transition: all 0.35s ease;
+}
+
+.menu-hover-lines li a {
+    padding: 0.75rem 0;
+    color: rgba(10, 10, 10, 0.75);
+    position: relative;
+    margin-left: 1rem;
+}
+
+.menu-hover-lines li:first-child a {
+    margin-left: 0;
+}
+
+.menu-hover-lines li.is-active > a {
+    background-color: transparent;
+}
+
+.menu-hover-lines a:before,
+.menu-hover-lines a::after {
+    height: 2px;
+    position: absolute;
+    content: '';
+    transition: all 0.35s ease;
+    background-color: #1779ba;
+    width: 0;
+}
+
+.menu-hover-lines a::before {
+    top: 0;
+    left: 0;
+}
+
+.menu-hover-lines a::after {
+    bottom: 0;
+    right: 0;
+}
+
+.menu-hover-lines a:hover,
+.menu-hover-lines li.is-active > a {
+    color: #0a0a0a;
+    transition: all 0.35s ease;
+}
+
+.menu-hover-lines a:hover::after,
+.menu-hover-lines .is-active a::after {
+    width: 100%;
 }
