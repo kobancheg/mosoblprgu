@@ -16,6 +16,16 @@
 
 show_admin_bar(false);
 
+add_filter( 'excerpt_length', function(){
+    return 20;
+} );
+
+add_filter( 'excerpt_more', 'new_excerpt_more' );
+function new_excerpt_more( $more ){
+    global $post;
+    return ' [...] <div><a href="'. get_permalink($post) . '">Читать далее...</a></div>';
+}
+
 /** Various clean up functions */
 require_once( 'library/cleanup.php' );
 
