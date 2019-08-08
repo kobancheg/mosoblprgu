@@ -40,14 +40,18 @@
     background: none;
     color: #0a0a0a;
     transition: all 0.35s ease;
-    border-left: 2px solid #1779ba;
+    border-left: 2px solid #2ba6cb;
 }
 
 #side-menu li.is-active > a {
     background: none;
     color: #1779ba;
     transition: all 0.35s ease;
-    border-left: 2px solid #1779ba;
+    border-left: 2px solid #2ba6cb;
+}
+
+.accordion-menu .is-accordion-submenu-parent:not(.has-submenu-toggle)>a::after {
+    border-color: #2ba6cb transparent transparent;
 }
 
 /*menu hover lines*/
@@ -79,7 +83,7 @@
     position: absolute;
     content: '';
     transition: all 0.35s ease;
-    background-color: #1779ba;
+    background-color: #2ba6cb;
     width: 0;
 }
 
@@ -99,6 +103,8 @@
     transition: all 0.35s ease;
 }
 
+.menu-hover-lines a:hover::before,
+.menu-hover-lines .is-active a::before,
 .menu-hover-lines a:hover::after,
 .menu-hover-lines .is-active a::after {
     width: 100%;

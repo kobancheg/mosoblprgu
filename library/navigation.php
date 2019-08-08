@@ -19,7 +19,7 @@ function foundationpress_side_menu() {
     wp_nav_menu(
         array(
             'container'      => false,
-            'menu_class'     => 'vertical menu',
+            'menu_class'     => 'vertical menu accordion-menu',
             'items_wrap'     => '<ul id="%1$s" class="%2$s" data-accordion-menu>%3$s</ul>',
             'theme_location' => 'sidebar-nav',
             'depth'          => 3,
