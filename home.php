@@ -7,6 +7,9 @@ get_header(); ?>
     <div class="main-container">
         <div class="main-grid sidebar-left">
             <main class="main-content home">
+
+                <?php echo do_shortcode( '[gallery size="full" ids="164,163,162,161"]' ); ?>
+
                 <div class="cards-container">
                 <?php if ( have_posts() ) : query_posts('cat=7&posts_per_page=2'); ?>
 

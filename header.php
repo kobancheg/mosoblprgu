@@ -32,9 +32,11 @@
 				</span>
 			</div>
 		</div>
-		<nav class="site-navigation top-bar grid-x margin-1" role="navigation">
-			<div class="top-bar-left cell"></div>
-            <div class="top-bar-center large-6 cell">
+		<nav class="site-navigation top-bar grid-x margin-1 align-center-middle text-center" role="navigation">
+			<div class="top-bar-left cell">
+                <img class="logo" src="<?php echo get_template_directory_uri() ?>/dist/assets/images/logo3.png">
+            </div>
+            <div class="top-bar-center cell large-6">
                 <div class="site-desktop-title top-bar-title">
                     <a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a>
                 </div>

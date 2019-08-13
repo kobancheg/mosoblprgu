@@ -54,6 +54,11 @@
     border-color: #2ba6cb transparent transparent;
 }
 
+.orbit {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
 /*menu hover lines*/
 
   .menu-hover-lines {
