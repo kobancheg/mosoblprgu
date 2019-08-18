@@ -23,6 +23,9 @@ require_once( 'library/foundation.php' );
 /** Format comments */
 require_once( 'library/class-foundationpress-comments.php' );
 
+/** Register orbit-slider */
+require_once( 'library/breadcrumbs.php' );
+
 /** Register all navigation menus */
 require_once( 'library/navigation.php' );
 
@@ -85,6 +88,7 @@ function gallery_slider($output, $attr) {
         return $output;
     }
 }
+
 add_filter('post_gallery', 'gallery_slider', 10, 2);
 
 function gallery_slider_template($images) {

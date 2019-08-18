@@ -21,6 +21,7 @@ get_header(); ?>
 	<div class="main-grid sidebar-left">
 
 		<main class="main-content">
+            <?php if ( function_exists( 'breadcrumbs' ) ) breadcrumbs(); ?>
 		<?php if ( have_posts() ) : ?>
 
 			<?php /* Start the Loop */ ?>

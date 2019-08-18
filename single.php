@@ -13,6 +13,7 @@ get_header(); ?>
 	<div class="main-grid sidebar-left">
 
 		<main class="main-content">
+            <?php if ( function_exists( 'breadcrumbs' ) ) breadcrumbs(); ?>
 			<?php while ( have_posts() ) : the_post(); ?>
 				<?php get_template_part( 'template-parts/content', '' ); ?>
 				<?php the_post_navigation(); ?>
