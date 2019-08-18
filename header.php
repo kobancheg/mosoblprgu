@@ -34,23 +34,21 @@
         </div>
     </div>
     <nav class="site-navigation top-bar grid-x" role="navigation">
-        <div class="top-bar-left cell medium-4">
+        <div class="top-bar-left cell medium-4 large-3 align-self-middle">
             <img class="logo" src="<?php echo get_template_directory_uri() ?>/dist/assets/images/logo3.png">
         </div>
-        <div class="top-bar-center cell flex-container flex-dir-column medium-8 align-self-stretch">
-            <div class="site-desktop-title top-bar-title flex-child-shrink text-center height-100">
+        <div class="top-bar-center cell medium-8 large-9 align-self-bottom">
+            <div class="site-desktop-title top-bar-title text-center margin-bottom-1">
                 <a href="<?php echo esc_url(home_url('/')); ?>" rel="home"><?php bloginfo('name'); ?></a>
             </div>
-            <address class="flex-child-shrink">
-                <div class="float-left"><i class="fas fa-map-marker-alt fa-lg subheader"></i>119119, г.Москва, ул. Ленинский проспект
-                    д.42
-                </div>
-                <div class="float-center"><i class="fas fa-at fa-lg subheader"></i><a href="mailto:">mosobkomprofgos@yandex.ru</a></div>
-                <div class="float-right"><i class="fas fa-phone-alt fa-lg subheader"></i>8(495)938-70-98, 70-97</div>
+            <address class="text-right">
+                <span class="display-block"><i class="fas fa-map-marker-alt fa-lg subheader"></i>119119, г.Москва, ул. Ленинский проспект, д.42</span>
+                <span class="display-block"><i class="fas fa-at fa-lg subheader"></i><a href="mailto:">mosobkomprofgos@yandex.ru</a></span>
+                <span class="display-block"><i class="fas fa-phone-alt fa-lg subheader"></i>8(495)938-70-98, 70-97</span>
             </address>
         </div>
     </nav>
-    <hr>
+    <hr style="margin-top: 0.5rem;">
     <nav class="top-menu" id="<?php foundationpress_mobile_menu_id(); ?>">
         <?php foundationpress_top_bar_r(); ?>
 

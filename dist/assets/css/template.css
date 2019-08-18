@@ -9,22 +9,22 @@
     text-transform: uppercase;
 }
 
-
-@media screen and (min-width: 50em) {
-    .site-desktop-title {
-        padding-top: 3em;
-    }
+/* Medium and up */
+@media screen and (min-width: 40em) {
     .site-desktop-title a {
-        font-size: 1.2rem;
+        font-size: 1.125rem;
+    }
+}
+
+@media screen and (min-width: 52em) {
+    .site-desktop-title a {
+        font-size: 1.3rem;
     }
 }
 
 @media screen and (min-width: 64em) {
-    .site-desktop-title {
-        padding-top: 4em;
-    }
     .site-desktop-title a {
-        font-size: 1.35rem;
+        font-size: 1.5rem;
     }
 }
 
