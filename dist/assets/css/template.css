@@ -9,6 +9,29 @@
     text-transform: uppercase;
 }
 
+
+@media screen and (min-width: 50em) {
+    .site-desktop-title {
+        padding-top: 3em;
+    }
+    .site-desktop-title a {
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (min-width: 64em) {
+    .site-desktop-title {
+        padding-top: 4em;
+    }
+    .site-desktop-title a {
+        font-size: 1.35rem;
+    }
+}
+
+.logo {
+    padding: 5px;
+}
+
 .top-menu a,
 .mobile-off-canvas-menu a {
     font-family: "Arsenal", sans-serif;
@@ -27,7 +50,7 @@
 
 .site-desktop-title a {
     font-weight: 300;
-    font-size: 1.125rem;
+    color: #767676;
 }
 
 #side-menu a {
@@ -54,9 +77,16 @@
     border-color: #2ba6cb transparent transparent;
 }
 
-.orbit {
-    margin-left: 5px;
-    margin-right: 5px;
+.fas {
+    color: #2ba6cb;
+    margin-right: 0.25rem;
+}
+
+address {
+    font-style: normal;
+    font-size: 0.75rem;
+    text-align: left;
+    line-height: 2.5;
 }
 
 /*menu hover lines*/
