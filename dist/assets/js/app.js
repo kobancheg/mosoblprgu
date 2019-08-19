@@ -31,12 +31,7 @@
 
     var s = i(0), a = n(s), o = i(3), l = (n(o), i(4));
     n(l);
-    jQuery(document).ready(function () {
-        var t = (0, a["default"])(".is-active.is-submenu-item").parent("ul").attr("id");
-        (0, a["default"])("#menu-side_menu").foundation("down", (0, a["default"])("#" + t)), (0, a["default"])("li[aria-expanded] > a").click(function (t) {
-            "true" == (0, a["default"])(t.currentTarget).parent("li").attr("aria-expanded") && (window.location = (0, a["default"])(this).attr("href"))
-        }), 0 == (0, a["default"])(".is-active.is-submenu-item").parent("ul").length && (0, a["default"])("#menu-side_menu").foundation("down", (0, a["default"])("#" + (0, a["default"])(".is-active.is-accordion-submenu-parent").find("ul").attr("id")))
-    }), window.$ = a["default"], (0, a["default"])(document).foundation()
+    window.$ = a["default"], (0, a["default"])(document).foundation()
 }, function (t, e, i) {
     !function (e, i) {
         t.exports = i()
@@ -976,8 +971,7 @@
         }, {
             key: "findFormError", value: function (t) {
                 var e = t[0].id, i = t.siblings(this.options.formErrorSelector);
-                return i.length || (i = t.parent().find(this.options.formErrorSelector)),
-                e && (i = i.add(this.$element.find('[data-form-error-for="'.concat(e, '"]')))), i
+                return i.length || (i = t.parent().find(this.options.formErrorSelector)), e && (i = i.add(this.$element.find('[data-form-error-for="'.concat(e, '"]')))), i
             }
         }, {
             key: "findLabel", value: function (t) {
@@ -995,7 +989,8 @@
         }, {
             key: "addErrorClasses", value: function (t) {
                 var e = this.findLabel(t), i = this.findFormError(t);
-                e.length && e.addClass(this.options.labelErrorClass), i.length && i.addClass(this.options.formErrorClass), t.addClass(this.options.inputErrorClass).attr({
+                e.length && e.addClass(this.options.labelErrorClass),
+                i.length && i.addClass(this.options.formErrorClass), t.addClass(this.options.inputErrorClass).attr({
                     "data-invalid": "",
                     "aria-invalid": !0
                 })
@@ -2569,8 +2564,7 @@
             }
         }, {
             key: "_reset", value: function () {
-                "undefined" != typeof this.$slides && this.$slides.length > 1 && (this.$element.off(".zf.orbit").find("*").off(".zf.orbit"),
-                this.options.autoPlay && this.timer.restart(), this.$slides.each(function (t) {
+                "undefined" != typeof this.$slides && this.$slides.length > 1 && (this.$element.off(".zf.orbit").find("*").off(".zf.orbit"), this.options.autoPlay && this.timer.restart(), this.$slides.each(function (t) {
                     (0, Z["default"])(t).removeClass("is-active is-active is-in").removeAttr("aria-live").hide()
                 }), this.$slides.first().addClass("is-active").show(), this.$element.trigger("slidechange.zf.orbit", [this.$slides.first()]), this.options.bullets && this._updateBullets(0))
             }
@@ -3330,8 +3324,7 @@
                 var i = this.$element.find(".".concat(this.options.linkClass, ".").concat(this.options.linkActiveClass)),
                     n = t.find('[role="tab"]'), s = n.attr("data-tabs-target"),
                     a = s && s.length ? "#".concat(s) : n[0].hash, o = this.$tabContent.find(a);
-                this._collapseTab(i), this._openTab(t), this.options.deepLink && !e && (this.options.updateHistory ? history.pushState({}, "", a) : history.replaceState({}, "", a)),
-                    this.$element.trigger("change.zf.tabs", [t, o]), o.find("[data-mutate]").trigger("mutateme.zf.trigger")
+                this._collapseTab(i), this._openTab(t), this.options.deepLink && !e && (this.options.updateHistory ? history.pushState({}, "", a) : history.replaceState({}, "", a)), this.$element.trigger("change.zf.tabs", [t, o]), o.find("[data-mutate]").trigger("mutateme.zf.trigger")
             }
         }, {
             key: "_openTab", value: function (t) {
