@@ -8,8 +8,12 @@
 
 ?>
 
-<nav class="mobile-off-canvas-menu off-canvas position-left" id="<?php foundationpress_mobile_menu_id(); ?>" data-off-canvas data-auto-focus="false" role="navigation">
+<nav class="mobile-off-canvas-menu off-canvas position-left" id="off-canvas-side" data-off-canvas data-auto-focus="false" role="navigation">
 	<?php foundationpress_mobile_nav(); ?>
+</nav>
+
+<nav class="mobile-off-canvas-menu off-canvas position-right" id="off-canvas-top" data-off-canvas data-auto-focus="false" role="navigation">
+    <?php foundationpress_mobile_nav(); ?>
 </nav>
 
 <div class="off-canvas-content" data-off-canvas-content>
