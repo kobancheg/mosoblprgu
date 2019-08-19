@@ -44,7 +44,8 @@
             <address class="text-right">
                 <span class="display-block"><i class="fas fa-map-marker-alt fa-lg subheader"></i>119119, г.Москва, ул. Ленинский проспект, д.42</span>
                 <span class="display-block"><i class="fas fa-at fa-lg subheader"></i><a href="mailto:">mosobkomprofgos@yandex.ru</a></span>
-                <span class="display-block"><i class="fas fa-phone-alt fa-lg subheader"></i>8(495)938-70-98, 70-97</span>
+                <span class="display-block"><i
+                            class="fas fa-phone-alt fa-lg subheader"></i>8(495)938-70-98, 70-97</span>
             </address>
         </div>
     </nav>
