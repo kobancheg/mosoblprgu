@@ -2,7 +2,7 @@
 /* */
 ?>
 
-<div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit
+<div class="orbit show-for-medium" role="region" aria-label="Favorite Space Pictures" data-orbit
      data-options="animInFromLeft:fade-in; animInFromRight:fade-in; animOutToLeft:fade-out; animOutToRight:fade-out;">
     <div class="orbit-wrapper">
         <div class="orbit-controls">

@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Arsenal:400,700&display=swap&subset=cyrillic');
-
 @import url('https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&display=swap&subset=cyrillic');
 
 .site-desktop-title a,
@@ -76,11 +75,11 @@
     border-left: 2px solid #2ba6cb;
 }
 
-.accordion-menu .is-accordion-submenu-parent:not(.has-submenu-toggle)>a::after {
+.accordion-menu .is-accordion-submenu-parent:not(.has-submenu-toggle) > a::after {
     border-color: #2ba6cb transparent transparent;
 }
 
-.fas {
+address .fas {
     color: #2ba6cb;
     margin-right: 0.5rem;
 }
@@ -92,9 +91,33 @@ address {
     line-height: 2.5;
 }
 
+.icon-graphic span {
+    font-family: "Arsenal", sans-serif;
+    text-transform: uppercase;
+    margin-top: 0.5rem;
+}
+
+@media screen and (max-width: 39.9375em) {
+    .icon-graphic .fas {
+        font-size: 3em;
+    }
+}
+
+@media screen and (min-width: 40em) and (max-width: 63.9375em) {
+    .icon-graphic .fas {
+        font-size: 4em;
+    }
+}
+
+@media screen and (min-width: 64em) {
+    .icon-graphic .fas {
+        font-size: 5em;
+    }
+}
+
 /*menu hover lines*/
 
-  .menu-hover-lines {
+.menu-hover-lines {
     text-align: center;
     text-transform: uppercase;
     transition: all 0.35s ease;
@@ -147,4 +170,5 @@ address {
 .menu-hover-lines .is-active a::after {
     width: 100%;
 }
+
 /*end menu hover lines*/
