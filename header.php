@@ -24,14 +24,11 @@
 <?php endif; ?>
 
 <header class="site-header main-container" role="banner">
-    <div class="site-title-bar title-bar" <?php foundationpress_title_bar_responsive_toggle(); ?>>
-        <div class="title-bar-left">
-            <button aria-label="<?php _e('Main Menu', 'foundationpress'); ?>" class="menu-icon alt-menu" type="button"
-                    data-toggle="off-canvas-side"></button>
-            <span class="site-mobile-title title-bar-title">
-					<a href="<?php echo esc_url(home_url('/')); ?>" rel="home"><?php bloginfo('name'); ?></a>
-				</span>
-        </div>
+    <div class="site-title-bar title-bar">
+        <button aria-label="<?php _e('Main Menu', 'foundationpress'); ?>" class="menu-icon alt-menu float-left"
+                type="button" data-toggle="off-canvas-side"></button>
+        <button aria-label="<?php _e('Main Menu', 'foundationpress'); ?>" class="menu-icon alt-menu-top float-right"
+                type="button" data-toggle="off-canvas-top"></button>
     </div>
     <nav class="site-navigation top-bar grid-x" role="navigation">
         <div class="top-bar-left cell medium-4 large-3 align-self-middle">
@@ -41,20 +38,13 @@
             <div class="site-desktop-title top-bar-title text-center margin-bottom-1">
                 <a href="<?php echo esc_url(home_url('/')); ?>" rel="home"><?php bloginfo('name'); ?></a>
             </div>
-            <address class="text-right">
+            <address class="medium-text-right">
                 <span class="display-block"><i class="fas fa-map-marker-alt fa-lg subheader"></i>119119, г.Москва, ул. Ленинский проспект, д.42</span>
                 <span class="display-block"><i class="fas fa-at fa-lg subheader"></i><a href="mailto:">mosobkomprofgos@yandex.ru</a></span>
-                <span class="display-block"><i class="fas fa-phone-alt fa-lg subheader"></i>8(495)938-70-98, 70-97</span>
+                <span class="display-block"><i class="fas fa-phone-alt fa-lg subheader"></i><a href="tel:+74959387098">8(495)938-70-98</a>, 70-97</span>
             </address>
         </div>
     </nav>
-
-    <div class="site-title-bar title-bar" <?php foundationpress_title_bar_responsive_toggle(); ?>>
-        <div class="title-bar-right">
-            <button aria-label="<?php _e('Main Menu', 'foundationpress'); ?>" class="menu-icon alt-menu-top" type="button"
-                    data-toggle="off-canvas-top"></button>
-        </div>
-    </div>
 
     <hr style="margin-top: 0.5rem;">
     <nav class="top-menu" id="<?php foundationpress_mobile_menu_id(); ?>">

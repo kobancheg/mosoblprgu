@@ -28,6 +28,15 @@
     }
 }
 
+.title-bar {
+    display: flow-root;
+    background-color: #2ba6cb;
+}
+
+.top-bar-title {
+    margin: 0.5rem 0;
+}
+
 .logo {
     padding: 5px;
 }
@@ -36,12 +45,6 @@
 .mobile-off-canvas-menu a {
     font-family: "Arsenal", sans-serif;
     font-size: 1rem;
-}
-
-@media screen and (max-width: 39.99875em) {
-    .top-bar-center {
-        display: none!important;
-    }
 }
 
 .top-bar, .top-bar ul {
@@ -79,7 +82,7 @@
 
 .fas {
     color: #2ba6cb;
-    margin-right: 0.25rem;
+    margin-right: 0.5rem;
 }
 
 address {
