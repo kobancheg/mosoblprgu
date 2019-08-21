@@ -18,13 +18,13 @@
 
 @media screen and (min-width: 52em) {
     .site-desktop-title a {
-        font-size: 1.3rem;
+        font-size: 1.25rem;
     }
 }
 
 @media screen and (min-width: 64em) {
     .site-desktop-title a {
-        font-size: 1.5rem;
+        font-size: 1.45rem;
     }
 }
 
@@ -38,7 +38,7 @@
 }
 
 .logo {
-    padding: 5px;
+    max-width: 210px;
 }
 
 .top-menu a {
@@ -194,15 +194,24 @@ address {
     color: rgba(10, 10, 10, 0.75);
 }
 
-.footer-grid .menu .is-active>a {
+.footer-grid .menu .is-active > a {
     background: none;
     color: #1779ba;
 }
 
 .footer-grid .fas,
-address .fas {
+.address .fas {
     color: #2ba6cb;
-    margin-right: 0.5rem;
+}
+
+.address .fas {
+    margin-right: 0.25rem;
+}
+
+.address a {
+    font-size: 0.8rem;
+    color: #767676;
+    text-decoration: underline;
 }
 
 .pagination .current,

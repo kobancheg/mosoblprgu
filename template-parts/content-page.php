@@ -8,7 +8,7 @@
  */
 
 ?>
-<div class="card">
+<div class="card border-none">
     <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
         <div class="card-image">
             <?php echo get_the_post_thumbnail() ?>

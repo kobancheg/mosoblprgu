@@ -32,17 +32,19 @@
     </div>
     <nav class="site-navigation top-bar grid-x" role="navigation">
         <div class="top-bar-left cell medium-4 large-3 align-self-middle">
-            <img class="logo" src="<?php echo get_template_directory_uri() ?>/dist/assets/images/logo3.png">
+            <img class="logo float-center" src="<?php echo get_template_directory_uri() ?>/dist/assets/images/logo3.png">
         </div>
         <div class="top-bar-center cell medium-8 large-9 align-self-bottom">
-            <div class="site-desktop-title top-bar-title text-center margin-bottom-1">
+            <div class="site-desktop-title top-bar-title text-center">
                 <a href="<?php echo esc_url(home_url('/')); ?>" rel="home"><?php bloginfo('name'); ?></a>
             </div>
-            <address class="medium-text-right">
-                <span class="display-block"><i class="fas fa-map-marker-alt fa-lg subheader"></i>119119, г.Москва, ул. Ленинский проспект, д.42</span>
-                <span class="display-block"><i class="fas fa-at fa-lg subheader"></i><a href="mailto:">mosobkomprofgos@yandex.ru</a></span>
-                <span class="display-block"><i class="fas fa-phone-alt fa-lg subheader"></i><a href="tel:+74959387098">8(495)938-70-98</a>, 70-97</span>
-            </address>
+            <div class="grid-x grid-padding-x address align-center">
+                <div class="cell shrink"><i class="fas fa-map-marker-alt"></i><a href="">119119, г.Москва, ул. Ленинский
+                        проспект, д.42</a></div>
+                <div class="cell shrink"><i class="fas fa-at"></i><a href="mailto:">mosobkomprofgos@yandex.ru</a></div>
+                <div class="cell shrink"><i class="fas fa-phone-alt"></i><a href="tel:+74959387090">8(495)938-70-90</a></div>
+                <div class="cell shrink"><i class="fas fa-fax"></i><a href="tel:+74959387097">8(495)938-70-97</a></div>
+            </div>
         </div>
     </nav>
 
