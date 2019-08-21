@@ -41,12 +41,20 @@
     padding: 5px;
 }
 
-.top-menu a,
-.mobile-off-canvas-menu a {
+.top-menu a {
     font-family: "Arsenal", sans-serif;
     color: rgba(10, 10, 10, 0.75);
     font-size: 1rem;
     text-transform: uppercase;
+}
+
+.off-canvas {
+    background: #fefefe;
+}
+
+.mobile-off-canvas-menu a {
+    color: rgba(10, 10, 10, 0.75);
+    font-size: 0.85rem;
 }
 
 .top-bar, .top-bar ul {
@@ -64,6 +72,7 @@
     text-transform: uppercase;
 }
 
+.mobile-off-canvas-menu a:hover,
 #side-menu a:hover {
     background: none;
     color: #0a0a0a;
@@ -71,6 +80,7 @@
     border-left: 2px solid #2ba6cb;
 }
 
+.mobile-off-canvas-menu li.is-active > a,
 #side-menu li.is-active > a {
     background: none;
     color: #1779ba;
