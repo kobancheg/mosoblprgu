@@ -41,6 +41,14 @@
     max-width: 210px;
 }
 
+.hr-nav {
+    margin: 0.5rem 0.5rem 1.25rem 0.5rem;
+}
+
+.hr-title {
+    margin: 0.75rem auto;
+}
+
 .top-menu a {
     font-family: "Arsenal", sans-serif;
     color: rgba(10, 10, 10, 0.75);
