@@ -205,6 +205,17 @@ address .fas {
     margin-right: 0.5rem;
 }
 
+.pagination .current,
 .button, .wp-block-button .wp-block-button__link {
     background-color: #2ba6cb;
+}
+
+.entry-title.h6 {
+    font-family: "Arsenal", sans-serif;
+    text-transform: uppercase;
+}
+
+p {
+    font-size: 0.9rem;
+    line-height: 1.5;
 }
