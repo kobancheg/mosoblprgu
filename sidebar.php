@@ -8,8 +8,7 @@
 
 ?>
 <aside class="sidebar show-for-medium">
-	<?php dynamic_sidebar( 'sidebar-widgets' ); ?>
-
     <?php get_template_part( 'template-parts/sidebar-nav' ); ?>
 
+    <?php dynamic_sidebar( 'sidebar-widgets' ); ?>
 </aside>
