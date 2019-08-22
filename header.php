@@ -41,8 +41,10 @@
             </div>
             <hr class="hide-for-large hr-title">
             <div class="grid-x grid-padding-x address align-center">
-                <div class="cell shrink"><i class="fas fa-map-marker-alt"></i><a href="">119119, г.Москва, ул. Ленинский
-                        проспект, д.42</a></div>
+                <div class="cell shrink"><i class="fas fa-map-marker-alt"></i>
+                    <a href="https://yandex.ru/maps/?um=constructor%3Aad120ea2ff411e91a039bc6cd6b0aa5d2b8d21b152ffe718a2abe922c40f6477&source=constructorLink">119119, г.Москва, ул. Ленинский
+                        проспект, д.42</a>
+                </div>
                 <div class="cell shrink"><i class="fas fa-at"></i><a href="mailto:">mosobkomprofgos@yandex.ru</a></div>
                 <div class="cell shrink"><i class="fas fa-phone-alt"></i><a href="tel:+74959387090">8(495)938-70-90</a>
                 </div>

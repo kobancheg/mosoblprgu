@@ -16,7 +16,8 @@
         </div>
         <div class="cell medium-3 align-self-middle text-center medium-text-right">
             <hr class="show-for-small-only">
-            <a href=""><i class="fas fa-map-marker-alt margin-horizontal-1"></i></a>
+            <a href="https://yandex.ru/maps/?um=constructor%3Aad120ea2ff411e91a039bc6cd6b0aa5d2b8d21b152ffe718a2abe922c40f6477&source=constructorLink">
+                <i class="fas fa-map-marker-alt margin-horizontal-1"></i></a>
             <a href="mailto:mosobkomprofgos@yandex.ru"><i class="fas fa-at margin-horizontal-1"></i></a>
             <a href="tel:+74959387098"><i class="fas fa-phone-alt margin-horizontal-1"></i></a>
         </div>

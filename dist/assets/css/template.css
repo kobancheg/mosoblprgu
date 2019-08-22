@@ -207,15 +207,18 @@ address {
     color: #1779ba;
 }
 
+.entry-content .fas,
 .footer-grid .fas,
 .address .fas {
     color: #2ba6cb;
 }
 
+.entry-content .fas,
 .address .fas {
     margin-right: 0.25rem;
 }
 
+.entry-content .fas a,
 .address a {
     font-size: 0.8rem;
     color: #767676;
@@ -232,7 +235,7 @@ address {
     text-transform: uppercase;
 }
 
-p {
+.entry-content p, .entry-content ul {
     font-size: 0.9rem;
     line-height: 1.5;
 }
