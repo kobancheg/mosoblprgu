@@ -39,7 +39,7 @@
             <div class="site-desktop-title top-bar-title text-center">
                 <a href="<?php echo esc_url(home_url('/')); ?>" rel="home"><?php bloginfo('name'); ?></a>
             </div>
-            <hr class="hide-for-large hr-title">
+            <hr class="hr-title">
             <div class="grid-x grid-padding-x address align-center">
                 <div class="cell shrink"><i class="fas fa-map-marker-alt"></i>
                     <a href="https://yandex.ru/maps/?um=constructor%3Aad120ea2ff411e91a039bc6cd6b0aa5d2b8d21b152ffe718a2abe922c40f6477&source=constructorLink">119119, г.Москва, ул. Ленинский

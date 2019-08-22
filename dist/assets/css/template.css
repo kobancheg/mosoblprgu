@@ -10,21 +10,23 @@
 }
 
 /* Medium and up */
-@media screen and (min-width: 40em) {
+
+
+@media screen and (min-width: 52em) {
     .site-desktop-title a {
         font-size: 1.125rem;
     }
 }
 
-@media screen and (min-width: 52em) {
+@media screen and (min-width: 64em) {
     .site-desktop-title a {
-        font-size: 1.25rem;
+        font-size: 1.3rem;
     }
 }
 
-@media screen and (min-width: 64em) {
-    .site-desktop-title a {
-        font-size: 1.45rem;
+@media print, screen and (min-width: 40em) {
+    .main-grid {
+        margin-top: 2rem;
     }
 }
 
@@ -38,15 +40,15 @@
 }
 
 .logo {
-    max-width: 210px;
+    max-width: 180px;
 }
 
 .hr-nav {
-    margin: 0.5rem 0.5rem 1.25rem 0.5rem;
+    margin: 1rem 0.5rem 1.75rem 0.5rem;
 }
 
 .hr-title {
-    margin: 0.75rem auto;
+    /*margin: 0.75rem auto;*/
 }
 
 .top-menu a {
@@ -245,6 +247,6 @@ address {
     margin-bottom: 1rem;
     border: solid 4px #fefefe;
     border-radius: 0;
-    box-shadow: 0 0 0 1px rgba(10,10,10,.2);
+    box-shadow: 0 0 0 1px rgba(10, 10, 10, .2);
     line-height: 0;
 }
