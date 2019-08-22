@@ -21,11 +21,11 @@
                 <li class="orbit-slide">
                     <figure class="orbit-figure">
                         <img class="orbit-image" src="<?php echo $src; ?>" alt="<?php echo $alt; ?>"/>
-                        <figcaption class="orbit-caption">
-                            <p><?php echo $title; ?></p>
-                            <p><?php echo $caption; ?></p>
-                            <p><?php echo $description; ?></p>
-                        </figcaption>
+                       <!-- <figcaption class="orbit-caption">
+                            <p><?php /*echo $title; */?></p>
+                            <p><?php /*echo $caption; */?></p>
+                            <p><?php /*echo $description; */?></p>
+                        </figcaption>-->
                     </figure>
                 </li>
             <?php } ?>

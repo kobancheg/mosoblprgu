@@ -7,8 +7,8 @@
  */
 
 ?>
-<aside class="sidebar show-for-medium">
-    <?php get_template_part( 'template-parts/sidebar-nav' ); ?>
+<aside class="sidebar">
+    <div class="hide-for-small-only"><?php get_template_part('template-parts/sidebar-nav'); ?></div>
 
-    <?php dynamic_sidebar( 'sidebar-widgets' ); ?>
+    <?php dynamic_sidebar('sidebar-widgets'); ?>
 </aside>

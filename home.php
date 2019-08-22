@@ -39,7 +39,7 @@ get_header(); ?>
                         <span class="display-block text-center">Здоровье</span>
                     </div>
                 </div>
-
+                <hr>
             </main>
             <?php get_sidebar(); ?>
 

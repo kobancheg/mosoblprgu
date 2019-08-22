@@ -239,3 +239,12 @@ address {
     font-size: 0.9rem;
     line-height: 1.5;
 }
+
+.widget_media_image {
+    max-width: 100%;
+    margin-bottom: 1rem;
+    border: solid 4px #fefefe;
+    border-radius: 0;
+    box-shadow: 0 0 0 1px rgba(10,10,10,.2);
+    line-height: 0;
+}
