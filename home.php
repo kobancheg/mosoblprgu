@@ -7,8 +7,10 @@ get_header(); ?>
     <div class="main-container">
         <div class="main-grid sidebar-left">
             <main class="main-content home">
-
-                <?php echo do_shortcode('[gallery size="full" ids="164,163,162,161"]'); ?>
+                <?php $post_gallery = get_post(156, ARRAY_A);
+                $title = $post_gallery['post_content'];
+                echo do_shortcode($title);
+                ?>
                 <div class="grid-x grid-margin-x large-up-2">
                     <?php if (have_posts()) : query_posts('cat=7&posts_per_page=2'); ?>
 

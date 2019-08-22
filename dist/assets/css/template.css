@@ -9,9 +9,6 @@
     text-transform: uppercase;
 }
 
-/* Medium and up */
-
-
 @media screen and (min-width: 52em) {
     .site-desktop-title a {
         font-size: 1.125rem;
