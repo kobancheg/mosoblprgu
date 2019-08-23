@@ -229,12 +229,13 @@ address {
     background-color: #2ba6cb;
 }
 
-.entry-title.h6 {
+.tabs-title>a, .accordion-title, .entry-title.h6 {
     font-family: "Arsenal", sans-serif;
     text-transform: uppercase;
+    color: #0a0a0a;
 }
 
-.entry-content p, .entry-content ul {
+.entry-content p, .entry-content ul, .accordion-content, .tabs-panel {
     font-size: 0.9rem;
     line-height: 1.5;
 }
