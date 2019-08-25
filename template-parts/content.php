@@ -16,7 +16,7 @@
             <div class="card-image">
                 <?php echo get_the_post_thumbnail() ?>
             </div>
-            <div class="card-section">
+            <div class="card-section grid-margin-x">
                 <header>
                     <?php
                     if (is_single()) {

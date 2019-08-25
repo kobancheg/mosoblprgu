@@ -21,8 +21,10 @@ get_header(); ?>
         <div class="main-grid sidebar-left">
 
             <main class="main-content">
+                <nav aria-label="You are here:" role="navigation">
                     <?php if (function_exists('breadcrumbs')) breadcrumbs(); ?>
-                    <div class="grid-x grid-margin-x">
+                </nav>
+                <div class="grid-x grid-margin-x">
                     <?php if (have_posts()) : ?>
 
                         <?php /* Start the Loop */ ?>

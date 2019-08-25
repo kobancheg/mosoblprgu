@@ -13,7 +13,7 @@
         <div class="card-image">
             <?php echo get_the_post_thumbnail() ?>
         </div>
-        <div class="card-section">
+        <div class="card-section grid-margin-x">
             <header>
                 <h1 class="entry-title h6"><?php the_title(); ?></h1>
             </header>
