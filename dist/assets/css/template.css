@@ -235,6 +235,7 @@ address {
     color: #0a0a0a;
 }
 
+.accordion-content li,
 .tabs-panel li {
     line-height: 2.5;
 }
