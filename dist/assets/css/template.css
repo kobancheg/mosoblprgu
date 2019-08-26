@@ -235,6 +235,10 @@ address {
     color: #0a0a0a;
 }
 
+.tabs-panel li {
+    line-height: 2.5;
+}
+
 .entry-content p, .entry-content ul, .accordion-content, .tabs-panel {
     font-size: 0.9rem;
     line-height: 1.5;
