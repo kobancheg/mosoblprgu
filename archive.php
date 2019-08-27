@@ -24,6 +24,8 @@ get_header(); ?>
                 <nav aria-label="You are here:" role="navigation">
                     <?php if (function_exists('breadcrumbs')) breadcrumbs(); ?>
                 </nav>
+                <?php if ($cat_desc = category_description())
+                    echo '<div class="cat__desc">' . $cat_desc . '</div>'; ?>
                 <div class="grid-x grid-margin-x">
                     <?php if (have_posts()) : ?>
 
