@@ -27,9 +27,11 @@
     }
 }
 
-.title-bar {
-    display: flow-root;
-    background-color: #2ba6cb;
+@media screen and (max-width: 39.9375em) {
+    .title-bar {
+        display: block;
+        background-color: #2ba6cb;
+    }
 }
 
 .top-bar-title {

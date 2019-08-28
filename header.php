@@ -14,7 +14,6 @@
 <head>
     <meta charset="<?php bloginfo('charset'); ?>"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>
@@ -24,7 +23,7 @@
 <?php endif; ?>
 
 <header class="site-header main-container" role="banner">
-    <div class="site-title-bar title-bar">
+    <div class="site-title-bar title-bar clearfix">
         <button aria-label="<?php _e('Main Menu', 'foundationpress'); ?>" class="menu-icon alt-menu float-left"
                 type="button" data-toggle="off-canvas-side"></button>
         <button aria-label="<?php _e('Main Menu', 'foundationpress'); ?>" class="menu-icon alt-menu-top float-right"

@@ -20,7 +20,7 @@ function foundationpress_side_menu() {
         array(
             'container'      => false,
             'menu_class'     => 'vertical menu accordion-menu',
-            'items_wrap'     => '<ul id="%1$s" class="%2$s" data-accordion-menu data-slide-speed="900">%3$s</ul>',
+            'items_wrap'     => '<ul id="%1$s" class="%2$s" data-accordion-menu data-slide-speed="400">%3$s</ul>',
             'theme_location' => 'sidebar-nav',
             'depth'          => 3,
             'fallback_cb'    => false,
