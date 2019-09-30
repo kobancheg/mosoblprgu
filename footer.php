@@ -35,7 +35,7 @@
 <?php wp_footer(); ?>
 
 <script>
-    $(document).ready(function () {
+    /*$(document).ready(function () {
         var tm = $('.off-canvas').html();
         $('.alt-menu-top').click(function(){
             $('.off-canvas').html(tm);
@@ -55,6 +55,11 @@
         if ($('.is-active.is-submenu-item').parent('ul').length == 0) {
             $('#menu-side_menu').foundation('down', $('#' + $('.is-active.is-accordion-submenu-parent').find('ul').attr('id')))
         }
+    });*/
+    $(document).ready(function(){
+        var ul=$('.is-active.is-submenu-item').parent('ul').attr('id');
+        $('#menu-side_menu').foundation('down', $('#'+ul));
+
     });
 </script>
 
