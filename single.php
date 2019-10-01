@@ -13,7 +13,7 @@ get_header(); ?>
 
 		<main class="main-content">
             <nav aria-label="You are here:" role="navigation">
-                <?php if (function_exists('breadcrumbs')) breadcrumbs(); ?>
+                <?php// if (function_exists('breadcrumbs')) breadcrumbs(); ?>
             </nav>
 			<?php while ( have_posts() ) : the_post(); ?>
 				<?php get_template_part( 'template-parts/content', '' ); ?>
