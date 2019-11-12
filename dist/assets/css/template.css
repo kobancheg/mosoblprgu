@@ -255,3 +255,15 @@ address {
     box-shadow: 0 0 0 1px rgba(10, 10, 10, .2);
     line-height: 0;
 }
+
+.post-page-numbers {
+    margin: 0 5px;
+}
+
+.entry-content img {
+    padding: 1rem 0.5rem;
+}
+
+.alignright {
+    padding-left: 1rem!important;
+}
