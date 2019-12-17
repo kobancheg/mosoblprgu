@@ -260,10 +260,11 @@ address {
     margin: 0 5px;
 }
 
-.entry-content img {
-    padding: 1rem 0.5rem;
+.alignnone {
+    padding: 1rem 0;
 }
 
-.alignright {
-    padding-left: 1rem!important;
+.alignleft, .alignright {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
